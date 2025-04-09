@@ -1,0 +1,19 @@
+functions-framework
+google-cloud-asset>=3.0.0
+google-cloud-pubsub>=2.0.0
+google-cloud-logging>=3.0.0
+google-cloud-resource-manager>=1.0.0
+# requests # Uncomment if needed for direct HTTP calls
+# google-api-python-client # Uncomment if needed for specific APIs
+
+# For Rego evaluation (choose one or use subprocess):
+# regopy
+# regorus
+
+# For ChainGuard/Sigstore (choose one or use subprocess):
+# sigstore
+
+# Testing dependencies
+colorama>=0.4.4
+pytest>=7.0.0
+pytest-cov>=4.0.0

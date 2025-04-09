@@ -1,0 +1,14 @@
+{
+  "name": "vm-shielded",
+  "networkInterfaces": [
+    {
+      "network": "global/networks/default",
+      "accessConfigs": []
+    }
+  ],
+  "shieldedInstanceConfig": {
+    "enableSecureBoot": true,
+    "enableVtpm": true,
+    "enableIntegrityMonitoring": true
+  }
+}

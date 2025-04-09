@@ -1,0 +1,11 @@
+{
+  "name": "public-bucket",
+  "iamConfiguration": {
+    "bindings": [
+      {
+        "role": "roles/storage.objectViewer",
+        "members": ["allUsers"]
+      }
+    ]
+  }
+}

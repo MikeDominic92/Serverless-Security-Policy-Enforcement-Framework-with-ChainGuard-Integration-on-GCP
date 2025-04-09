@@ -1,0 +1,9 @@
+{
+  "name": "vm-without-external-ip",
+  "networkInterfaces": [
+    {
+      "network": "global/networks/default",
+      "accessConfigs": []
+    }
+  ]
+}

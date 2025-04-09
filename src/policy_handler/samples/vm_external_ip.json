@@ -1,0 +1,14 @@
+{
+  "name": "vm-with-external-ip",
+  "networkInterfaces": [
+    {
+      "network": "global/networks/default",
+      "accessConfigs": [
+        {
+          "type": "ONE_TO_ONE_NAT",
+          "name": "External NAT"
+        }
+      ]
+    }
+  ]
+}

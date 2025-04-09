@@ -1,0 +1,11 @@
+{
+  "name": "private-bucket",
+  "iamConfiguration": {
+    "bindings": [
+      {
+        "role": "roles/storage.objectViewer",
+        "members": ["user:john@example.com"]
+      }
+    ]
+  }
+}
